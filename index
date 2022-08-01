@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       body{
+        background-color: black ;
+        background-size: 100%;
+
+       }
+
+       nav { width: 100%px; background-color: #04244d;text-align: center;}
+            nav ul { list-style:none; margin:0; padding:1px }
+            nav ul li { display:inline-block; }
+            nav ul li a { font-size: 35px; text-decoration: none; color: rgb(0, 195, 255); padding: 4px ;margin: 10px;}
+            nav ul li a:hover { background-color: #05022e }
+          
+            #titulo{
+                color: #554f03;
+                padding: 4px;
+                text-align: center;
+                font-size: 60px;
+                margin: 5px;
+                text-shadow: 2px 2px #dfee0f;
+
+            }
+            #id1{
+                filter: blur(5px);
+            }
+        
+         
+    </style>
+    <title>Página Do Richarde</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="titulo">Página Do Richarde</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="projetos.html">Projetos</a></a></li>
+                <li><a href="curriculo.html">Currículo</a></a></li>
+                <li><a href="diferencial.html">Diferencial</a></a></li>
+            </ul>
+            <div id="id1">
+                <img src="imagem1.jpg">
+            </div>
+        </nav>
+    </main>    
+</body>
+</html>
